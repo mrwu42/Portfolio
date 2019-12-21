@@ -44,16 +44,25 @@
     .box3 {
         width: 100%;
         background-color: gray;
-        margin-top: 265px;
+        margin-top: 240px;
         border-top: 8px solid lightseagreen;
     }
 
-    .card {
+    .box2 {
+        background-color: white;
+        width: 550px;
         height: fit-content;
-        width: 40rem;
-        margin-left: 3rem;
-        margin-top: 4rem;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-bottom: 100px;
     }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+    
+    
 
     </style>
 
@@ -61,7 +70,7 @@
   
   
   
-  
+ 
   
   
   <body>
@@ -71,7 +80,7 @@
         </div> 
             <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" href="Index.html">About</a>
+              <a class="nav-link active" href="index.html">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Portfolio.html">Portfolio</a>
@@ -82,19 +91,55 @@
         </ul>
     </nav>
 
-    <!-- Card -->
-    <div class="card">
-      <!-- Title -->
-        <h4 class="card-title"><a>About Me</a></h4>
-<p><img src="http://wiki.chssigma.com/images/8/84/Cute_cat.jpg" alt="Pineapple" style="width:170px;height:170px;margin-right:15px;">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.</p>
 
 
-  
+    <div class="box2">
+
+        <h1>Portfolio</h1>
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="card">
+                <img src="2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Word Guess</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="1.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">RPG Games</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Trivia Game</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Info Widget</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                  <img src="5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Rock Paper Scissors</h5>
+                  </div>
+                </div>
+              </div>
+        </div>
     </div>
-
-   
-      
+    
       
 
 
@@ -112,11 +157,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 
-<div class="box3">  
-    <footer class="page-footer font-small blue">
+
+    <footer class="page-footer font-small blue box3">
         <div class="footer-copyright text-center py-3">© 2019 Copyright</div>
     </footer>
-</div>
 
 
   
